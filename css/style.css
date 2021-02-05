@@ -54,6 +54,26 @@ h1 {
 }
 
 .art_body,
-.dotted_list {
+.dotted_list,
+table,
+.art_body .paragr {
   margin-top: 25px;
+  border-spacing: 0;
+}
+
+table thead {
+  background-color: rgb(102, 179, 255);
+  color: white;
+}
+
+table .text {
+  width: 50%;
+}
+
+table th {
+  text-align: left;
+}
+
+table .light {
+  background-color: rgba(102, 179, 255, 0.2);
 }
